@@ -3,7 +3,8 @@ export default {
         {
             "name": "Conveyor Belt",
             "key_name": "belt1",
-            "rate": 60
+            "rate": 60,
+            "image": "https://static.wikia.nocookie.net/satisfactory_gamepedia_en/images/c/c9/Conveyor_Belt_Mk.1.png/revision/latest?cb=20200603005149"
         },
         {
             "name": "Conveyor Belt Mk.2",
