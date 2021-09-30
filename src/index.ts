@@ -8,6 +8,8 @@ import items from './routes/items.ts';
 import miners from './routes/miners.ts';
 import resources from './routes/resources.ts';
 
+//
+
 const server = new Drash.Http.Server({
   logger: new Drash.CoreLoggers.ConsoleLogger({
     enabled: true,
