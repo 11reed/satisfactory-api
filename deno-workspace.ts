@@ -2,11 +2,11 @@ import { DenoWorkspace } from "https://denopkg.com/BentoumiTech/denox/src/interf
 
 const workspace: DenoWorkspace = {
   "scripts": {
-    "start": {
+    "dev": {
       "file": "./src/index.ts",
       "deno_options": {
         "allow-net": "localhost"
-      }
+      },
     },
   },
 };
