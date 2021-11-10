@@ -3,3 +3,7 @@
 /public
 /test
 db
+.DS_Store
+Thumbs.db
+.aleph/
+dist/

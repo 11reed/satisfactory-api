@@ -4,6 +4,7 @@ import recipesData from '../data/recipesData.ts';
 
 export default class AllResource extends Drash.Http.Resource {
   static paths = ["/api/v1/recipes"];
+  
   public GET() {
     this.response.body = JSON.parse(JSON.stringify(recipesData));
     return this.response;

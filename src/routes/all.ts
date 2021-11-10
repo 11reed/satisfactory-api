@@ -4,6 +4,7 @@ import allData from '../data/allData.ts';
 
 export default class AllResource extends Drash.Http.Resource {
   static paths = ["/api/v1/all"];
+  
   public GET() {
     this.response.body = JSON.parse(JSON.stringify(allData));
     return this.response;

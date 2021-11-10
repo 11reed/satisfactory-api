@@ -4,6 +4,7 @@ import beltsData from '../data/beltsData.ts';
 
 export default class BeltsResource extends Drash.Http.Resource {
   static paths = ["/api/v1/belts"];
+  
   public GET() {
     this.response.body = JSON.parse(JSON.stringify(beltsData));
     return this.response;
