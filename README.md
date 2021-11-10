@@ -4,4 +4,3 @@
 
 ## Server
 `denox run dev`
-
