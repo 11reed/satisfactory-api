@@ -1,4 +1,4 @@
-import { DenoWorkspace } from "https://denopkg.com/BentoumiTech/denox/src/interfaces.ts";
+import { DenoWorkspace } from 'https://denopkg.com/BentoumiTech/denox/src/interfaces.ts';
 
 const workspace: DenoWorkspace = {
   "scripts": {

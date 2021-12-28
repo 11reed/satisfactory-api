@@ -2,6 +2,7 @@
 .history
 /public
 /test
+frontend
 db
 .DS_Store
 Thumbs.db
